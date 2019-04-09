@@ -1,0 +1,71 @@
+body{
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	margin-left: 6vw;
+	margin-right: 6vw;
+	font-size: 1.25em;
+	font-family: sans-serif;
+}
+
+.title{
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.subtitle {
+	font-size: 1.5625em;
+	text-align: center;
+}
+
+.paragraph {
+	background-color: rgb(206,206,206);
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+}
+
+.parTitle {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.tinyBuild {
+	width: 50vw;
+	display: inline-block;
+	/*align-content: center;*/
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.footnote { 
+  vertical-align: super;
+  font-size: 0.5em;
+}
+
+/*Link manager:
+
+  unvisited*/
+.link:link {
+  color: #FF0000;
+}
+
+/*visited*/
+.link:visited {
+  color: #00FF00;
+}
+
+/*mouse over*/
+.link:hover {
+  color: #FF00FF;
+}
+
+/*selected*/
+.link:active {
+  color: #0000FF;
+}

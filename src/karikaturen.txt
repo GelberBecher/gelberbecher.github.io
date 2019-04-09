@@ -1,0 +1,30 @@
+		<a href="https://www.politische-bildung-brandenburg.de/node/12191">
+		<img src="./src/frauenverdienstArgumentFuerFrauenquote.jpg" title="&copy;Harm Bengen"  height=375px width=527px>
+		</a>
+
+		<a href="https://www.politische-bildung-brandenburg.de/node/12191">
+		<img src="./src/frauinnen.jpg" title="&copy;Hogli"  height=612px width=574px>
+		</a>
+
+		<a href="LINK">
+		<img src="SRC" title="&copy;AUTOR"  height=px width=px>
+		</a>
+
+		<a href="LINK">
+		<img src="SRC" title="&copy;AUTOR"  height=px width=px>
+		</a>
+
+		<a href="LINK">
+		<img src="SRC" title="&copy;AUTOR"  height=px width=px>
+		</a>
+
+		<a href="LINK">
+		<img src="SRC" title="&copy;AUTOR"  height=px width=px>
+		</a>
+		
+		
+		
+		
+		
+Quellen:
+https://genderdings.de/gender/geschlechterrollen/
