@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html lang="de">
+	<head>
+		<!--Metadaten-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="GelberBecher">
+		<meta name="robots" content="noindex,nofollow">
+		<meta name="description" content="Diese Seite ist zum Konvertieren von Zahlen gedacht.">
+		
+		<!--Titel-->
+		<title>Bechers Zahlenkonvertierer&trade;</title>
+		
+		<!--Links (Stylesheet, Favicon, JS)-->
+		<base href="../">
+		<link rel="stylesheet" href="default.css">
+		<link rel="stylesheet" href="navbarmanager.css">
+		<link rel="stylesheet" href="nmbrs/nmbrs.css">
+		<link rel="shortcut icon" href="src/img/logo.ico">
+		<script src="src/scr/jquerylocal.js"></script>
+		<script src="nmbrs/nmbrs.js"></script>
+	</head>
+	
+	<body>
+		<noscript><!--Wenn JavaScript deaktiviert ist-->
+			<strong>Für die korrekte Darstellung dieser Seite wird Java-Script benötigt.</strong><br>
+			Bitte aktivieren Sie Java-Script!<br><br><br>
+		</noscript>
+		<!----------------------------------------------------------------------------------------------------->
+		<ul class="navbar">
+			<li class="navitem"><a class="ddbutton" href="index.html"><img src="src/img/home_icon.png" height=14 width=14></a></li>
+			<li class="dropdown">
+				<a class="ddbutton">Dokumentation</a>
+				<div class="ddcontent">
+					<a href="">Link 1</a>
+					<a href="">Link 2</a>
+					<a href="">Link 3</a>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a class="ddbutton">Artikel</a>
+				<div class="ddcontent">
+					<a href="">Link 1</a>
+					<a href="">Link 2</a>
+					<a href="./pages/steam.html">Gaming Empfehlungen</a>
+				</div>
+			</li>
+			<li class="navitem"><a class="ddbutton" href="nmbrs/nmbrs.html">Zahlensystemrechner</a></li>
+		</ul>
+		<!----------------------------------------------------------------------------------------------------->
+		<div class="title">
+			Der Zahlenkonvertierer
+		</div>
+		
+		<div class="content">
+			<!--Eingabefeld:-->
+			<div class="content">
+				<a class="desc">Eingabe:</a>
+				<input type="text" id="input">
+				<select id="inputsys">
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+					<option value="32">32</option>
+					<option value="33">33</option>
+					<option value="34">34</option>
+					<option value="35">35</option>
+					<option value="36">36</option>
+				</select>
+			</div>
+			
+			<!--Verarbeitung-->
+			<div class="content">
+				<a class="desc">Dezimal: </a><a class="desc" id="dez"></a>
+				<button onclick="konv()">Konvertieren</button>
+			</div>
+			
+			<!--Ausgabefeld:-->
+			<div class="content">
+				<a class="desc">Ausgabe:</a>
+				<a id="output"></a>
+				<select id="outputsys">
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+					<option value="32">32</option>
+					<option value="33">33</option>
+					<option value="34">34</option>
+					<option value="35">35</option>
+					<option value="36">36</option>
+				</select>
+			</div>
+		</div>
+		
+		<!--Beschreibung-->
+		<div class="content">
+			<br><a class="desc">Hallo du da draußen!</a><br>
+			Diese Website dient dem Konvertieren von Zahlen aus einem beliebigen Zahlensystem (2-36) in ein beliebiges Anderes!<br>
+			Wie funktioniert das?<br><ol>
+			<li>Gib die zu konvertierende Zahl ein das Textfeld ein.</li>
+			<li>Wähle das Zahlensystem aus, von welchem du konvertieren m&ouml;chtest.</li>
+			<li>Wähle in der Ausgabe das Zahlensystem aus, in welches du konvertieren m&ouml;chtest.</li>
+			<li>Dr&uuml;cke nun "Konvertieren" und lass JavaScript den Rest übernehmen. Magie!</li></ol>
+			Bitte gehe sicher dass die Informationen, die du gibst, richtig sind.
+		</div>
+		<!----------------------------------------------------------------------------------------------------->
+	</body>
+</html>

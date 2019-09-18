@@ -1,0 +1,7 @@
+<!--            Rimworld            --><iframe src="https://store.steampowered.com/widget/294100/" frameborder="0" width="646" height="190"></iframe>
+<!--            Factorio            --><iframe src="https://store.steampowered.com/widget/427520/" frameborder="0" width="646" height="190"></iframe>
+<!-- Planetary Annihilation: TITANS --><iframe src="https://store.steampowered.com/widget/386070/" frameborder="0" width="646" height="190"></iframe>
+<!--         Heat Signature         --><iframe src="https://store.steampowered.com/widget/268130/" frameborder="0" width="646" height="190"></iframe>
+<!--        They Are Billions       --><iframe src="https://store.steampowered.com/widget/644930/" frameborder="0" width="646" height="190"></iframe>
+<!--    A Plague Tale - Innocence   --><iframe src="https://store.steampowered.com/widget/752590/" frameborder="0" width="646" height="190"></iframe>
+<!--        Prison Architect        --><iframe src="https://store.steampowered.com/widget/233450/" frameborder="0" width="646" height="190"></iframe>

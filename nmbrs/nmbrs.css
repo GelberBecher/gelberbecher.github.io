@@ -1,0 +1,18 @@
+.contentbox {
+	font-size: 1em;
+	padding: 16px;
+}
+
+.contentboxinl {
+	display: inline-block;
+	font-size: 1em;
+	margin: 16px;
+}
+
+.desc {
+	font-size: 1.25em;
+}
+
+.button {
+	cursor: crosshair;
+}
